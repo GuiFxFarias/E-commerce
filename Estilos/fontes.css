@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+:root{
+    --font01: 'Odibee Sans', Arial, Helvetica, sans-serif;
+}
+
+#nav-bar div h1{
+    font-family: var(--font01);
+    font-weight: lighter;
+    font-size: 2rem;
+}
