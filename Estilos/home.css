@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 :root {
   --CorLC: #ead8ff;
   --CorC: #c4b9f5;
@@ -90,6 +94,7 @@ a {
 
 .container-canecas {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .container-canecas img {
@@ -151,7 +156,34 @@ a {
 }
 
 .middle-site{
+  background-image: url("../Imagens/FundoImage.jpg");
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
   
-  height: 40vh;
+
+  height: 50vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
+
+.container-middle-site{
+  box-shadow: inset 0px 0px 30px rgba(255, 255, 255, 0.752);
+}
+
+.middle-site span {
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 10px;
+  border-radius: 7px;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 20pt;
+  margin-left: 30px;
+}
+
