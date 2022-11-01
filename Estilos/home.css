@@ -6,11 +6,11 @@
   box-sizing: border-box;
 }
 
-:root{
-  --CorC: #C4B9F5;
-  --CorCM: #9C93C2;
-  --CorM: #8A71F7;
-  --CorME: #5E5975;
+:root {
+  --CorC: #c4b9f5;
+  --CorCM: #9c93c2;
+  --CorM: #8a71f7;
+  --CorME: #5e5975;
   --CorE: #423675;
 }
 
@@ -74,4 +74,24 @@ a {
   .open {
     display: block;
   }
+}
+
+.grid-container {
+  margin: auto;
+  padding: 10px;
+  width: 60%;
+  text-align: center;
+  display: grid;
+
+  grid-template-columns: 350px auto auto;
+  grid-template-rows: 110px 250px;
+  gap: 5px;
+  background-color: var(--CorC);
+  grid-template-areas:
+    "sidebar c1 c2"
+    "sidebar c1 c2"
+}
+
+.edit{
+  border: 1px solid black;
 }
