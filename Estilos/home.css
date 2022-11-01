@@ -101,6 +101,7 @@ a {
 .container-canecas img:hover {
   transition: 1s;
   scale: 1.1;
+  
 }
 
 .container-canecas .content:hover {
@@ -117,14 +118,15 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
 }
 
 .container-vend {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
+  margin-bottom: -17px;
 }
 
 .content {
@@ -132,14 +134,19 @@ a {
   height: 300px;
   overflow: hidden;
   transition: 1s;
-  margin-bottom: 20px;
 }
-
-
 
 .contentV {
   width: 300px;
   height: 300px;
   overflow: hidden;
-  transition: 1s;
+  transition: 1s;  
 }
+
+.container-promo p {
+  margin-top: 10px;
+}
+.container-vend p {
+  margin-top: 10px;
+}
+
