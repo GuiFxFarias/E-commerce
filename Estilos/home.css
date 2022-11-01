@@ -76,6 +76,10 @@ a {
   }
 }
 
+.content{
+  background-color: whitesmoke;
+}
+
 .grid-container {
   margin: auto;
   padding: 10px;
@@ -84,14 +88,30 @@ a {
   display: grid;
 
   grid-template-columns: 350px auto auto;
-  grid-template-rows: 110px 250px;
+  grid-template-rows: 300px 300px;
   gap: 5px;
   background-color: var(--CorC);
   grid-template-areas:
     "sidebar c1 c2"
-    "sidebar c1 c2"
+    "sidebar c3 c4"
 }
 
 .edit{
   border: 1px solid black;
+}
+
+#sidebar{
+  grid-area: sidebar;
+}
+#c1{
+  grid-area: c1;
+}
+#c2{
+  grid-area: c2;
+}
+#c3{
+  grid-area: c3;
+}
+#c4{
+  grid-area: c4;
 }
