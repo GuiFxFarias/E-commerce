@@ -157,9 +157,9 @@ a {
 
 .middle-site{
   background-image: url("../Imagens/FundoImage.jpg");
-  background-position: bottom center;
+  background-position: center center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
   
@@ -187,3 +187,73 @@ a {
   margin-left: 30px;
 }
 
+.categorias{
+  margin-top: 20px;
+}
+
+.tittle-categorias{
+  display: flex;
+  justify-content: space-around;
+}
+
+.canecas-categorias{
+  display: flex;
+  justify-content: space-around;
+}
+
+.naruto-canecas{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.naruto-canecas img{
+  width: 100%;
+}
+
+.content-naruto{
+  width: 300px;
+  height: 300px;
+}
+
+.dbz-canecas{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.content-dbz{
+  width: 300px;
+  height: 300px;
+}
+
+.content-dbz img{
+  width: 100%;
+}
+
+.one-piece-canecas{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.content-onepiece{
+  width: 300px;
+  height: 300px;
+}
+
+.content-onepiece img{
+  width: 100%;
+}
