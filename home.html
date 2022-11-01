@@ -10,30 +10,11 @@
   </head>
   <body>
     <header>
-        <nav id="nav-bar">
-          <div>
-            <h1>Avalon</h1>
-          </div>
-          <div id="nav-list">
-            <ul>
-              <li class="item-list">
-                <a href="#">Home</a>
-              </li>
-              <li class="item-list">
-                <a href="#">Certificados</a>
-              </li>
-              <li class="item-list">
-                <a href="#">Fale comigo</a>
-              </li>
-            </ul>
-          </div>
-          <div class="botao">
-            <button onclick="menuShow()">
-              <img class="icon" src="menu_white_36dp.svg" alt="" />
-            </button>
-          </div>
-        </nav>
-        <div class="menu-mobile">
+      <nav id="nav-bar">
+        <div>
+          <h1>Avalon</h1>
+        </div>
+        <div id="nav-list">
           <ul>
             <li class="item-list">
               <a href="#">Home</a>
@@ -46,30 +27,53 @@
             </li>
           </ul>
         </div>
+        <div class="botao">
+          <button onclick="menuShow()">
+            <img class="icon" src="menu_white_36dp.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="menu-mobile">
+        <ul>
+          <li class="item-list">
+            <a href="#">Home</a>
+          </li>
+          <li class="item-list">
+            <a href="#">Certificados</a>
+          </li>
+          <li class="item-list">
+            <a href="#">Fale comigo</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-      <div class="content">
-        <div class="flex-tittle">
-          <h3>Mais vendidos</h3>
-          <h3>Em promoção</h3>
+      <h3>Em promoção</h3>
+      <h3>Mais vendidos</h3>
+      <div class="container-canecas">
+        <div class="container-promo">
+          <div class="content">
+            <img src="Imagens/Original-images/Goku.jpg" alt="Goku" id="goku-image">
+            
+          </div>
+          <div class="content">
+            <img src="Imagens/Original-images/Nanatsu.jpg" alt="Nanatsu" id="nanatsu-image">
+          </div>
+          <div class="content">
+            <img src="Imagens/Original-images/One-piexe.jpg" alt="Luffy" id="luffy-image">
+          </div>
+          <div class="content">
+            <img src="Imagens/Original-images/Naruto-grupo.jpg" alt="Naruto-grupo" id="naruto-grupo-image">
+          </div>
         </div>
-        <div class="flex-container">
-          <section class="grid-container">
-            <div class="edit" id="sidebar"></div>
-            <div class="edit" id="c1"></div>
-            <div class="edit" id="c2"></div>
-            <div class="edit" id="c3"></div>
-            <div class="edit" id="c4"></div>
-          </section>
-          <section class="grid-container">
-            <div class="edit" id="sidebar"></div>
-            <div class="edit" id="c1"></div>
-            <div class="edit" id="c2"></div>
-            <div class="edit" id="c3"></div>
-            <div class="edit" id="c4"></div>
-          </section>
+        <div class="container-vend">
+          <div class="contentV"></div>
+          <div class="contentV"></div>
+          <div class="contentV"></div>
+          <div class="contentV"></div>
         </div>
       </div>
+
       <section class="middle-site"></section>
     </main>
     <script src="/JavaScript/menu-mobile.js"></script>
