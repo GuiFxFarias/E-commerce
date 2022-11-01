@@ -124,6 +124,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  border-right: 10px double var(--CorE);
 }
 
 .container-vend {
@@ -191,6 +192,10 @@ a {
   margin-top: 20px;
 }
 
+.categorias h2{
+  text-align: center; 
+}
+
 .tittle-categorias{
   display: flex;
   justify-content: space-around;
@@ -218,6 +223,8 @@ a {
 .content-naruto{
   width: 300px;
   height: 300px;
+  overflow: hidden;
+  transition: 1s;
 }
 
 .dbz-canecas{
@@ -233,6 +240,8 @@ a {
 .content-dbz{
   width: 300px;
   height: 300px;
+  overflow: hidden;
+  transition: 1s;
 }
 
 .content-dbz img{
@@ -252,8 +261,40 @@ a {
 .content-onepiece{
   width: 300px;
   height: 300px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.content-onepiece:hover{
+  box-shadow: 0px 0px 15px black;
+  transition: 1s;
+}
+.content-dbz:hover{
+  box-shadow: 0px 0px 15px black;
+  transition: 1s;
+}
+.content-naruto:hover{
+  box-shadow: 0px 0px 15px black;
+  transition: 1s;
 }
 
 .content-onepiece img{
   width: 100%;
+  transition: 1s;
 }
+
+.content-naruto img{
+  width: 100%;
+  transition: 1s;
+}
+
+.content-dbz img{
+  width: 100%;
+  transition: 1s;
+}
+
+.canecas-categorias img:hover{
+  transition: 1s;
+  scale: 1.1;
+}
+
