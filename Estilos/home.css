@@ -40,6 +40,7 @@ a {
   justify-content: space-between;
   padding: 20px 10px;
   align-items: center;
+  font-family: ;
 }
 
 #nav-list ul {
@@ -79,6 +80,10 @@ a {
   .open {
     display: block;
   }
+}
+
+main a{
+  color: black;
 }
 
 .tittle{
@@ -190,10 +195,12 @@ a {
 
 .categorias{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .categorias h2{
   text-align: center; 
+  padding: 20px;
 }
 
 .tittle-categorias{

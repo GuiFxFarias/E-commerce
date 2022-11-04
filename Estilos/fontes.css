@@ -1,11 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;400;500;700;900&display=swap');
+
 
 :root{
     --font01: 'Odibee Sans', Arial, Helvetica, sans-serif;
+    --font02: 'Saira Condensed',  Arial, Helvetica, sans-serif
 }
 
 #nav-bar div h1{
     font-family: var(--font01);
     font-weight: lighter;
     font-size: 2rem;
+}
+
+#nav-bar{
+    font-family: var(--font01);
+}
+
+#nav-list{
+    font-size: 1.2rem;
+}
+
+.menu-mobile{
+    font-family: var(--font01);
+    font-size: 1.2rem;
+}
+.tittle{
+    font-family: var(--font02);
+    color:;
 }
