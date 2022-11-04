@@ -1,31 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;400;500;700;900&display=swap");
 
-
-:root{
-    --font01: 'Odibee Sans', Arial, Helvetica, sans-serif;
-    --font02: 'Saira Condensed',  Arial, Helvetica, sans-serif
+:root {
+  --font01: "Odibee Sans", Arial, Helvetica, sans-serif;
+  --font02: "Saira Condensed", Arial, Helvetica, sans-serif;
+  --CorLC: #ead8ff;
+  --CorC: #c4b9f5;
+  --CorCM: #9c93c2;
+  --CorM: #8a71f7;
+  --CorME: #5e5975;
+  --CorE: #423675;
 }
 
-#nav-bar div h1{
-    font-family: var(--font01);
-    font-weight: lighter;
-    font-size: 2rem;
+#nav-bar div h1 {
+  font-family: var(--font01);
+  font-weight: lighter;
+  font-size: 2rem;
 }
 
-#nav-bar{
-    font-family: var(--font01);
+#nav-bar {
+  font-family: var(--font01);
 }
 
-#nav-list{
-    font-size: 1.2rem;
+#nav-list {
+  font-size: 1.2rem;
 }
 
-.menu-mobile{
-    font-family: var(--font01);
-    font-size: 1.2rem;
+.menu-mobile {
+  font-family: var(--font01);
+  font-size: 1.2rem;
 }
-.tittle{
+.tittle h3 {
+  font-family: var(--font02);
+  color: var(--CorME);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.367);
+  font-size: 1.5rem;
+}
+
+.container-canecas{
     font-family: var(--font02);
-    color:;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.container-canecas p {
+    color: var(--CorE);
+}
+
+.middle-site span{
+    font-family: var(--font01);
+    background-color: #423675b1;
+    color: var(--CorLC);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.393);
+}
+
+.categorias h2{
+    font-family: var(--font02);
+    font-size: 2rem;
 }

@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -22,7 +22,7 @@ body{
 header {
   background-color: var(--CorM);
   color: white;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.444);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.315);
   margin-right: -1px;
 }
 
@@ -40,7 +40,6 @@ a {
   justify-content: space-between;
   padding: 20px 10px;
   align-items: center;
-  font-family: ;
 }
 
 #nav-list ul {
@@ -82,19 +81,19 @@ a {
   }
 }
 
-main a{
-  color: black;
+main a {
+  color: var(--CorE);
 }
 
-.tittle{
+.tittle {
   display: flex;
   margin-top: 20px;
   padding: 10px;
   justify-content: space-around;
 }
 
-.tittle h3{
-  border-bottom: 1px solid rgb(144, 144, 144);
+.tittle h3 {
+  border-bottom: 1px solid var(--CorC);
 }
 
 .container-canecas {
@@ -111,7 +110,6 @@ main a{
 .container-canecas img:hover {
   transition: 1s;
   scale: 1.1;
-  
 }
 
 .container-canecas .content:hover {
@@ -151,7 +149,7 @@ main a{
   width: 250px;
   height: 250px;
   overflow: hidden;
-  transition: 1s;  
+  transition: 1s;
 }
 
 .container-promo p {
@@ -161,14 +159,13 @@ main a{
   margin-top: 10px;
 }
 
-.middle-site{
+.middle-site {
   background-image: url("../Imagens/FundoImage.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
-  
 
   height: 50vh;
   width: 100%;
@@ -177,13 +174,12 @@ main a{
   justify-content: flex-start;
 }
 
-.container-middle-site{
+.container-middle-site {
   box-shadow: inset 0px 0px 30px rgba(255, 255, 255, 0.752);
 }
 
 .middle-site span {
   opacity: 1;
-  background-color: rgb(255, 255, 255);
   color: black;
   padding: 10px;
   border-radius: 7px;
@@ -193,27 +189,27 @@ main a{
   margin-left: 30px;
 }
 
-.categorias{
+.categorias {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.categorias h2{
-  text-align: center; 
+.categorias h2 {
+  text-align: center;
   padding: 20px;
 }
 
-.tittle-categorias{
+.tittle-categorias {
   display: flex;
   justify-content: space-around;
 }
 
-.canecas-categorias{
+.canecas-categorias {
   display: flex;
   justify-content: space-around;
 }
 
-.naruto-canecas{
+.naruto-canecas {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -223,18 +219,18 @@ main a{
   margin-top: 20px;
 }
 
-.naruto-canecas img{
+.naruto-canecas img {
   width: 100%;
 }
 
-.content-naruto{
+.content-naruto {
   width: 200px;
   height: 200px;
   overflow: hidden;
   transition: 1s;
 }
 
-.dbz-canecas{
+.dbz-canecas {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -244,18 +240,18 @@ main a{
   margin-top: 20px;
 }
 
-.content-dbz{
+.content-dbz {
   width: 200px;
   height: 200px;
   overflow: hidden;
   transition: 1s;
 }
 
-.content-dbz img{
+.content-dbz img {
   width: 100%;
 }
 
-.one-piece-canecas{
+.one-piece-canecas {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -265,52 +261,52 @@ main a{
   margin-top: 20px;
 }
 
-.content-onepiece{
+.content-onepiece {
   width: 200px;
   height: 200px;
   overflow: hidden;
   transition: 1s;
 }
 
-.content-onepiece:hover{
+.content-onepiece:hover {
   box-shadow: 0px 0px 15px black;
   transition: 1s;
 }
-.content-dbz:hover{
+.content-dbz:hover {
   box-shadow: 0px 0px 15px black;
   transition: 1s;
 }
-.content-naruto:hover{
+.content-naruto:hover {
   box-shadow: 0px 0px 15px black;
   transition: 1s;
 }
 
-.content-onepiece img{
+.content-onepiece img {
   width: 100%;
   transition: 1s;
 }
 
-.content-naruto img{
+.content-naruto img {
   width: 100%;
   transition: 1s;
 }
 
-.content-dbz img{
+.content-dbz img {
   width: 100%;
   transition: 1s;
 }
 
-.canecas-categorias img:hover{
+.canecas-categorias img:hover {
   transition: 1s;
   scale: 1.1;
 }
 
-footer{
+footer {
   height: 30vh;
   background-color: var(--CorE);
 }
 
-.content-add{
+.content-add {
   width: 900px;
   margin: auto;
   color: white;
@@ -320,37 +316,37 @@ footer{
   justify-content: space-around;
 }
 
-.content-add a{
+.content-add a {
   text-decoration: underline;
   color: var(--CorLC);
 }
 
-.contatos-content{
+.contatos-content {
   color: var(--CorLC);
 }
 
-.contatos{
+.contatos {
   list-style-type: none;
   padding-top: 10px;
 }
 
-.company{
+.company {
   list-style-type: none;
   padding-top: 10px;
 }
-.my-account{
+.my-account {
   list-style-type: none;
   padding-top: 10px;
 }
 
-.contatos .contatos-content{
+.contatos .contatos-content {
   padding-top: 5px;
 }
 
-.company .company-content{
+.company .company-content {
   padding-top: 5px;
 }
 
-.my-account .content-account{
+.my-account .content-account {
   padding-top: 5px;
 }
