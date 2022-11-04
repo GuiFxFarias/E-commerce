@@ -55,9 +55,15 @@ a {
   display: none;
 }
 
+.item-list{
+  border-right: 2px solid var(--CorLC);
+}
+
 @media screen and (max-width: 800px) {
   .item-list {
     display: none;
+    border-bottom: 2px solid var(--CorLC);
+    border-right: none;
   }
   .botao {
     display: block;
@@ -204,6 +210,10 @@ main a {
   justify-content: space-around;
 }
 
+.tittle-categorias h3{
+  padding-left: 20px;
+}
+
 .canecas-categorias {
   display: flex;
   justify-content: space-around;
@@ -302,7 +312,7 @@ main a {
 }
 
 footer {
-  height: 30vh;
+  height: 35vh;
   background-color: var(--CorE);
 }
 
@@ -314,6 +324,10 @@ footer {
 
   display: flex;
   justify-content: space-around;
+}
+
+.content-add h3{
+  font-size: 1.5rem;
 }
 
 .content-add a {

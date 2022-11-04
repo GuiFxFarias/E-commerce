@@ -37,23 +37,45 @@
   font-size: 1.5rem;
 }
 
-.container-canecas{
-    font-family: var(--font02);
-    font-weight: 600;
-    font-size: 1.1rem;
+.container-canecas {
+  font-family: var(--font02);
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 .container-canecas p {
-    color: var(--CorE);
+  color: var(--CorE);
 }
 
-.middle-site span{
-    font-family: var(--font01);
-    background-color: #423675b1;
-    color: var(--CorLC);
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.393);
+.middle-site span {
+  font-family: var(--font01);
+  background-color: #423675b1;
+  color: var(--CorLC);
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.393);
 }
 
-.categorias h2{
+.categorias h2 {
+  font-family: var(--font02);
+  font-size: 2rem;
+  color: var(--CorM);
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.393);
+  border: 1px solid var(--CorE);
+  display: inline-block;
+  background-color: var(--CorE);
+}
+
+.tittle-container{
+    display: block;
+    text-align: center;
+    margin: 10px auto 20px auto;
+}
+
+.tittle-categorias {
+  font-family: var(--font01);
+  font-size: 1.3rem;
+  color: var(--CorE);
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.393);
+}
+
+footer{
     font-family: var(--font02);
-    font-size: 2rem;
 }
