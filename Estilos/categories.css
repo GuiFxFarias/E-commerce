@@ -14,24 +14,25 @@
 
 .flex-container {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
 .categories-content {
   width: 400px;
-  border: 1px solid black;
   height: 100vh;
+  border: 1px solid black;
 }
 .content {
   width: 900px;
-  height: 100vh;
+  height: auto;
+  overflow-y: hidden;
   border: 1px solid black;
 }
 
 .content-images {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 
   padding: 10px;
@@ -39,8 +40,25 @@
 }
 
 .item-content {
-    border: 1px solid black;
-    width: 31%;
-    text-align: center;
-    height: 40vh;
+  border: 1px solid black;
+  width: 31%;
+  text-align: center;
+  height: 300px;
+
+  margin: 10px auto;
+}
+
+.list-categories {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+  padding: 10px;
+}
+
+.item-categories {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px auto;
 }
