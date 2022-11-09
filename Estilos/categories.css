@@ -7,7 +7,6 @@
   --CorE: #423675;
 }
 
-
 .categories {
   margin: auto;
   padding: 20px;
@@ -65,21 +64,21 @@
   font-size: 16pt;
 }
 
-.item-categories::after{
-  background-image: ;
-}
 
-.data-item{
+
+.data-item {
   list-style: none;
-  display: none;
 }
 
-.item-categories img{
+.data::after {
+  content: url(smiley.gif);
+}
+
+.item-categories img {
   width: 20px;
 }
 
-.data{
+.data {
   padding: 5px;
   font-size: 12pt;
 }
-
