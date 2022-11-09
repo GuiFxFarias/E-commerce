@@ -62,4 +62,24 @@
   border: 1px solid black;
   padding: 10px;
   margin: 5px auto;
+  font-size: 16pt;
 }
+
+.item-categories::after{
+  background-image: ;
+}
+
+.data-item{
+  list-style: none;
+  display: none;
+}
+
+.item-categories img{
+  width: 20px;
+}
+
+.data{
+  padding: 5px;
+  font-size: 12pt;
+}
+
