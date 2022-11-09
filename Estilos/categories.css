@@ -1,0 +1,46 @@
+:root {
+  --CorLC: #ead8ff;
+  --CorC: #c4b9f5;
+  --CorCM: #9c93c2;
+  --CorM: #8a71f7;
+  --CorME: #5e5975;
+  --CorE: #423675;
+}
+
+.categories {
+  margin: auto;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.categories-content {
+  width: 400px;
+  border: 1px solid black;
+  height: 100vh;
+}
+.content {
+  width: 900px;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.content-images {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 10px;
+  list-style-type: none;
+}
+
+.item-content {
+    border: 1px solid black;
+    width: 31%;
+    text-align: center;
+    height: 40vh;
+}
