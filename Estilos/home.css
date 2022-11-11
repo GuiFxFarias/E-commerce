@@ -119,12 +119,12 @@ main a {
 }
 
 .container-canecas .content:hover {
-  box-shadow: 0px 0px 15px black;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);;
   transition: 1s;
 }
 
 .container-canecas .contentV:hover {
-  box-shadow: 0px 0px 15px black;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);;
   transition: 1s;
 }
 
@@ -279,15 +279,15 @@ main a {
 }
 
 .content-onepiece:hover {
-  box-shadow: 0px 0px 15px black;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);;
   transition: 1s;
 }
 .content-dbz:hover {
-  box-shadow: 0px 0px 15px black;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);;
   transition: 1s;
 }
 .content-naruto:hover {
-  box-shadow: 0px 0px 15px black;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);;
   transition: 1s;
 }
 
