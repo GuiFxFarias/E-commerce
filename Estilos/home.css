@@ -22,7 +22,7 @@ body {
 header {
   background-color: var(--CorM);
   color: white;
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.315);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.315);
   margin-right: -1px;
 }
 

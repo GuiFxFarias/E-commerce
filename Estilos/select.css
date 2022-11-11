@@ -1,8 +1,45 @@
 :root {
-    --CorLC: #ead8ff;
-    --CorC: #c4b9f5;
-    --CorCM: #9c93c2;
-    --CorM: #8a71f7;
-    --CorME: #5e5975;
-    --CorE: #423675;
-  }
+  --CorLC: #ead8ff;
+  --CorC: #c4b9f5;
+  --CorCM: #9c93c2;
+  --CorM: #8a71f7;
+  --CorME: #5e5975;
+  --CorE: #423675;
+}
+
+.sell-container{
+    display: flex;
+    justify-content: center;
+    
+    margin: 10px;
+    gap: 10px;
+}
+
+.sell-image{
+    height: 700px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.slider-sell{
+    height: 75%;
+    border-bottom: 1px solid black;
+}
+
+.content-sell{
+    height: 700px;
+    width: 450px;
+    border: 1px solid black;
+}
+
+.description{
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.see-later{
+    height: 40vh;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
