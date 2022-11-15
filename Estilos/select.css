@@ -6,7 +6,6 @@
   --CorME: #5e5975;
   --CorE: #423675;
 }
-
 .sell-container{
     display: flex;
     justify-content: center;
@@ -24,6 +23,11 @@
 .slider-sell{
     height: 75%;
     border-bottom: 1px solid black;
+}
+
+.slider-sell img{
+    width: 100%;
+    border-bottom: 2px solid black;
 }
 
 .content-sell{
