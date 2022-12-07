@@ -56,7 +56,7 @@
   cursor: pointer;
 }
 
-.item-content p{
+.item-content p {
   background-color: rgba(245, 245, 245, 0.452);
   padding: 7px;
 }
@@ -67,8 +67,6 @@
   transition: 1s;
   box-shadow: 0px 0px 15px var(--CorE);
 }
-
-
 
 .list-categories {
   display: flex;
@@ -105,7 +103,7 @@
 
 .data {
   padding: 5px;
-  font-size: 12pt;
+  font-size: 12pt;  
 }
 
 .flex-bar {
@@ -117,7 +115,7 @@
   height: 40vh;
   width: 400px;
   background-color: var(--CorE);
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,8 +131,14 @@
   border-radius: 5px;
 }
 
-.talk #talk-cel{
+.talk #talk-cel {
   text-decoration: underline;
   color: var(--CorLC);
   font-size: 14pt;
+}
+
+.dataItem {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
 }
